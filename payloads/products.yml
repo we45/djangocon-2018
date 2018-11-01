@@ -1,0 +1,7 @@
+name: Iphone SE
+category: 1
+description: 'Good Mobile'
+price: 120
+available: 1
+stock: 10
+image: "djangocon.png"

