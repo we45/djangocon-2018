@@ -11,5 +11,5 @@ RoboBandit==1.1
 robotframework==3.0.4
 RoboZap==1.2
 six==1.11.0
-urllib3==1.22
+urllib3==1.26.5
 websocket-client==0.53.0
